@@ -15,6 +15,7 @@ def test_root_reports_backend() -> None:
     assert response.json()["backend"] == "rot13"
     assert response.json()["app"] == "/app"
     assert response.json()["prompt_translate"] == "/prompt-translate"
+    assert response.json()["lesson_random"] == "/lesson-random"
 
 
 def test_frontend_route_serves_html() -> None:
@@ -23,6 +24,34 @@ def test_frontend_route_serves_html() -> None:
     assert response.status_code == 200
     assert "text/html" in response.headers["content-type"]
     assert "WayloLingo Prompt Studio" in response.text
+
+
+def test_lesson_random_returns_prompt_and_turns() -> None:
+    response = client.get("/lesson-random?level=beginner&max_turns=4")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["level"] == "beginner"
+    assert body["conversation_id"]
+    assert body["turn_count"] == 4
+    assert body["source_turn_count"] >= 4
+    assert "Conversation:" in body["prompt"]
+    assert isinstance(body["turns"], list)
+    assert len(body["turns"]) == 4
+
+
+def test_lesson_random_rejects_invalid_level() -> None:
+    response = client.get("/lesson-random?level=unknown")
+
+    assert response.status_code == 400
+    assert "Unsupported lesson level" in response.json()["detail"]
+
+
+def test_lesson_random_rejects_invalid_max_turns() -> None:
+    response = client.get("/lesson-random?level=beginner&max_turns=0")
+
+    assert response.status_code == 400
+    assert "max_turns must be between 1 and 10" in response.json()["detail"]
 
 
 def test_translate_returns_structured_rot13_response() -> None:
@@ -205,3 +234,52 @@ def test_prompt_translate_ollama_fast_path_skips_freeform_response(monkeypatch) 
     assert response.status_code == 200
     body = response.json()
     assert body["english_response"] == 'In Mandarin, you would say "钢琴" (gāng qín) for "piano".'
+
+
+def test_prompt_translate_builds_from_cjk_response_without_translate_call(monkeypatch) -> None:
+    class StubTranslator:
+        backend_name = "ollama"
+
+        def respond(self, prompt: str) -> str:
+            return 'Use "我们下去吧" (wǒmen xiàqù ba) and "现在走" (xiànzài zǒu).'
+
+        def translate(self, text: str) -> ConversationResponse:
+            raise AssertionError("translate should not be called when CJK is already present")
+
+    api.get_translator.cache_clear()
+    monkeypatch.setattr(api, "get_translator", lambda: StubTranslator())
+
+    response = client.post(
+        "/prompt-translate",
+        json={"prompt": "Translate this mini lesson to Mandarin"},
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["translation"]["conversation"]
+    assert body["translation"]["conversation"][0]["symbols"] == ["我们下去吧"]
+    assert body["translation"]["conversation"][1]["symbols"] == ["现在走"]
+
+
+def test_prompt_translate_falls_back_when_translate_fails(monkeypatch) -> None:
+    class StubTranslator:
+        backend_name = "ollama"
+
+        def respond(self, prompt: str) -> str:
+            return "Here is a concise explanation without Chinese symbols."
+
+        def translate(self, text: str) -> ConversationResponse:
+            raise api.TranslatorError("Ollama did not return valid translator JSON")
+
+    api.get_translator.cache_clear()
+    monkeypatch.setattr(api, "get_translator", lambda: StubTranslator())
+
+    response = client.post(
+        "/prompt-translate",
+        json={"prompt": "Translate this lesson"},
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["english_response"].startswith("Here is a concise explanation")
+    assert body["translation"]["conversation"]

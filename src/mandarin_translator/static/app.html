@@ -60,6 +60,29 @@
         gap: 10px;
       }
 
+      .lesson-row {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .lesson-row select {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 8px 10px;
+        font: inherit;
+        color: var(--ink);
+        background: #fff;
+      }
+
+      .lesson-meta {
+        margin-top: 8px;
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+      }
+
       textarea {
         width: 100%;
         min-height: 90px;
@@ -124,11 +147,44 @@
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       }
 
+      .audio-controls {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .audio-controls label {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.95rem;
+        color: var(--ink-soft);
+      }
+
+      .audio-controls input {
+        width: 90px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 6px 8px;
+        font: inherit;
+      }
+
+      .audio-controls button {
+        padding: 9px 12px;
+      }
+
       .audio-card {
         border: 1px solid var(--line);
         border-radius: 10px;
         padding: 10px;
         background: #fff;
+      }
+
+      .audio-card.playing {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 2px rgba(197, 79, 36, 0.2);
       }
 
       .token {
@@ -168,6 +224,26 @@
           <textarea id="promptInput" placeholder="How do I say lets go downstairs in mandarin?">How do I say piano in Mandarin?</textarea>
           <button id="sendBtn">Ask</button>
         </div>
+        <div class="lesson-row">
+          <label for="lessonLevelSelect">Lesson level</label>
+          <select id="lessonLevelSelect">
+            <option value="super_easy">super_easy</option>
+            <option value="beginner" selected>beginner</option>
+            <option value="intermediate">intermediate</option>
+            <option value="intermediate_nouns">intermediate_nouns</option>
+          </select>
+          <label for="lessonTurnsSelect">Prompt turns</label>
+          <select id="lessonTurnsSelect">
+            <option value="3">3</option>
+            <option value="4" selected>4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+          </select>
+          <button id="loadLessonBtn" type="button">Random Lesson + Ask</button>
+        </div>
+        <div id="lessonMeta" class="lesson-meta"></div>
         <div id="status" class="status"></div>
 
         <div id="result" class="result">
@@ -176,6 +252,13 @@
           <div id="symbols" class="symbols"></div>
 
           <h2>Pinyin Audio</h2>
+          <div class="audio-controls">
+            <label for="gapMsInput">Gap (ms)
+              <input id="gapMsInput" type="number" min="0" max="3000" step="1" value="1" />
+            </label>
+            <button id="playAllBtn" type="button">Play All</button>
+            <button id="stopAllBtn" type="button">Stop</button>
+          </div>
           <div id="audioGrid" class="audio-grid"></div>
         </div>
       </section>
@@ -189,6 +272,16 @@
       const englishResponseEl = document.getElementById('englishResponse');
       const symbolsEl = document.getElementById('symbols');
       const audioGridEl = document.getElementById('audioGrid');
+      const gapMsInput = document.getElementById('gapMsInput');
+      const playAllBtn = document.getElementById('playAllBtn');
+      const stopAllBtn = document.getElementById('stopAllBtn');
+      const lessonLevelSelect = document.getElementById('lessonLevelSelect');
+      const lessonTurnsSelect = document.getElementById('lessonTurnsSelect');
+      const loadLessonBtn = document.getElementById('loadLessonBtn');
+      const lessonMeta = document.getElementById('lessonMeta');
+
+      let activeTokenAudios = [];
+      let stopPlaybackRequested = false;
 
       function setStatus(message) {
         statusEl.textContent = message;
@@ -196,6 +289,7 @@
 
       function renderAudioCards(tokens) {
         audioGridEl.innerHTML = '';
+        activeTokenAudios = [];
 
         if (!tokens.length) {
           audioGridEl.innerHTML = '<div class="small">No pinyin tokens returned.</div>';
@@ -239,7 +333,112 @@
           card.appendChild(audio);
           card.appendChild(hint);
           audioGridEl.appendChild(card);
+
+          activeTokenAudios.push({
+            token,
+            card,
+            audio,
+            primarySrc,
+            fallbackSrc,
+            hasFallback: toneOneFallback !== primaryToken,
+          });
         }
+      }
+
+      function sleep(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      }
+
+      function clearPlayingState() {
+        for (const item of activeTokenAudios) {
+          item.card.classList.remove('playing');
+          item.audio.pause();
+          item.audio.currentTime = 0;
+        }
+      }
+
+      function waitForAudioEnd(audio) {
+        return new Promise((resolve) => {
+          const onEnded = () => {
+            cleanup();
+            resolve(true);
+          };
+          const onError = () => {
+            cleanup();
+            resolve(false);
+          };
+          const cleanup = () => {
+            audio.removeEventListener('ended', onEnded);
+            audio.removeEventListener('error', onError);
+          };
+          audio.addEventListener('ended', onEnded);
+          audio.addEventListener('error', onError);
+        });
+      }
+
+      async function playOneToken(item) {
+        const { audio, primarySrc, fallbackSrc, hasFallback } = item;
+
+        async function tryPlay(src) {
+          audio.pause();
+          audio.currentTime = 0;
+          audio.src = src;
+          try {
+            await audio.play();
+          } catch {
+            return false;
+          }
+          return await waitForAudioEnd(audio);
+        }
+
+        const primaryOk = await tryPlay(primarySrc);
+        if (primaryOk) {
+          return true;
+        }
+
+        if (hasFallback) {
+          return await tryPlay(fallbackSrc);
+        }
+
+        return false;
+      }
+
+      async function playAllTokens() {
+        if (!activeTokenAudios.length) {
+          setStatus('No pinyin tokens to play.');
+          return;
+        }
+
+        stopPlaybackRequested = false;
+        playAllBtn.disabled = true;
+        stopAllBtn.disabled = false;
+
+        const gapMs = Math.max(0, Math.min(3000, Number(gapMsInput.value) || 0));
+
+        for (let i = 0; i < activeTokenAudios.length; i += 1) {
+          if (stopPlaybackRequested) {
+            break;
+          }
+
+          const item = activeTokenAudios[i];
+          clearPlayingState();
+          item.card.classList.add('playing');
+          setStatus(`Playing ${i + 1}/${activeTokenAudios.length}: ${item.token}`);
+          await playOneToken(item);
+
+          if (stopPlaybackRequested) {
+            break;
+          }
+
+          if (i < activeTokenAudios.length - 1 && gapMs > 0) {
+            await sleep(gapMs);
+          }
+        }
+
+        clearPlayingState();
+        playAllBtn.disabled = false;
+        stopAllBtn.disabled = true;
+        setStatus(stopPlaybackRequested ? 'Playback stopped.' : 'Playback complete.');
       }
 
       async function submitPrompt() {
@@ -264,12 +463,23 @@
             throw new Error(payload.detail || 'Request failed');
           }
 
-          const firstSentence = payload.translation?.conversation?.[0] || {};
-          const symbols = Array.isArray(firstSentence.symbols) ? firstSentence.symbols : [];
-          const phonetic = Array.isArray(firstSentence.phonetic) ? firstSentence.phonetic : [];
+          const conversation = Array.isArray(payload.translation?.conversation)
+            ? payload.translation.conversation
+            : [];
+
+          const symbols = conversation.flatMap((sentence) =>
+            Array.isArray(sentence?.symbols) ? sentence.symbols : []
+          );
+          const phonetic = conversation.flatMap((sentence) =>
+            Array.isArray(sentence?.phonetic) ? sentence.phonetic : []
+          );
 
           englishResponseEl.textContent = payload.english_response || '';
-          symbolsEl.textContent = symbols.length ? `Target symbols: ${symbols.join(' ')}` : 'No symbols returned.';
+          if (symbols.length) {
+            symbolsEl.textContent = `Target symbols (${conversation.length} lines): ${symbols.join(' ')}`;
+          } else {
+            symbolsEl.textContent = 'No symbols returned.';
+          }
           renderAudioCards(phonetic);
 
           resultEl.classList.add('show');
@@ -281,7 +491,46 @@
         }
       }
 
+      async function loadRandomLessonAndAsk() {
+        const level = lessonLevelSelect.value;
+        const maxTurns = lessonTurnsSelect.value;
+        if (!level) {
+          setStatus('Choose a lesson level first.');
+          return;
+        }
+
+        sendBtn.disabled = true;
+        loadLessonBtn.disabled = true;
+        setStatus(`Loading random ${level} lesson...`);
+
+        try {
+          const response = await fetch(
+            `/lesson-random?level=${encodeURIComponent(level)}&max_turns=${encodeURIComponent(maxTurns)}`
+          );
+          const payload = await response.json();
+          if (!response.ok) {
+            throw new Error(payload.detail || 'Could not load lesson');
+          }
+
+          promptInput.value = payload.prompt || '';
+          lessonMeta.textContent = `Loaded lesson ${payload.conversation_id} (${payload.turn_count}/${payload.source_turn_count} turns in prompt)`;
+
+          await submitPrompt();
+        } catch (error) {
+          setStatus(`Error: ${error.message}`);
+        } finally {
+          sendBtn.disabled = false;
+          loadLessonBtn.disabled = false;
+        }
+      }
+
       sendBtn.addEventListener('click', submitPrompt);
+      loadLessonBtn.addEventListener('click', loadRandomLessonAndAsk);
+      playAllBtn.addEventListener('click', playAllTokens);
+      stopAllBtn.addEventListener('click', () => {
+        stopPlaybackRequested = true;
+      });
+      stopAllBtn.disabled = true;
     </script>
   </body>
 </html>

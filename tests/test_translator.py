@@ -108,3 +108,18 @@ def test_ollama_translator_extracts_target_phrase_from_how_do_i_say_prompt() -> 
     assert response.conversation[0].english == ["piano"]
     assert response.conversation[0].phonetic == ["gang1", "qin2"]
     assert response.conversation[0].symbols == ["钢琴"]
+
+
+def test_ollama_translator_falls_back_when_symbols_missing() -> None:
+    client = FakeClient(
+        {
+            "response": '{"conversation":[{"language":"mandarin","language_code":"zh-CN","english":["let","us","start"],"phonetic":["wo3","men5","kai1","shi3"],"symbols":[]}]} '
+        }
+    )
+    translator = OllamaTranslator(model="qwen2.5:3b", client=client)
+
+    response = translator.translate("let us start")
+
+    assert response.conversation[0].english == ["let", "us", "start"]
+    assert response.conversation[0].phonetic == ["wo3", "men5", "kai1", "shi3"]
+    assert response.conversation[0].symbols == ["?"]

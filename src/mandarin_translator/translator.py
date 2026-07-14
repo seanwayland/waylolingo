@@ -214,6 +214,9 @@ class OllamaTranslator:
 
         for sentence in response.conversation:
             symbols = CJK_TOKEN_RE.findall(" ".join(sentence.symbols))
+            if not symbols:
+                # Best-effort fallback: keep non-empty raw symbol entries if model omitted CJK tokens.
+                symbols = [token.strip() for token in sentence.symbols if token.strip()]
 
             english = [token.lower() for token in WORD_RE.findall(" ".join(sentence.english))]
             if source_english_tokens:
@@ -229,7 +232,7 @@ class OllamaTranslator:
             if not phonetic:
                 raise TranslatorError("Model returned empty or invalid phonetic tokens")
             if not symbols:
-                raise TranslatorError("Model returned empty or invalid symbol tokens")
+                symbols = ["?"]
 
             normalized_sentences.append(
                 Sentence(
