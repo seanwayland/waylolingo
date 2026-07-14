@@ -1,0 +1,5819 @@
+{
+  "level": "intermediate",
+  "source": "generated",
+  "focus_nouns": [
+    "hospital",
+    "school",
+    "work",
+    "airport",
+    "Mary",
+    "Hong Kong",
+    "bag",
+    "car"
+  ],
+  "count": 100,
+  "turns_per_conversation": 10,
+  "notes": "Generated intermediate dialogs with practical travel, work, and daily-life nouns.",
+  "conversations": [
+    {
+      "conversation_id": "intermediate-nouns-001",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-002",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-003",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-004",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-005",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-006",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-007",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-008",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-009",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-010",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-011",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-012",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-013",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-014",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-015",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-016",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-017",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-018",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-019",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-020",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-021",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-022",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-023",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-024",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-025",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-026",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-027",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-028",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-029",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-030",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-031",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-032",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-033",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-034",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-035",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-036",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-037",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-038",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-039",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-040",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-041",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-042",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-043",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-044",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-045",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-046",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-047",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-048",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-049",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-050",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-051",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-052",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-053",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-054",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-055",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-056",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-057",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-058",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-059",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-060",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-061",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-062",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-063",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-064",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-065",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-066",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-067",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-068",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-069",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-070",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-071",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-072",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-073",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-074",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-075",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-076",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-077",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-078",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-079",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-080",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-081",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-082",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-083",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-084",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-085",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-086",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-087",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-088",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-089",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-090",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-091",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Mary, are you going to the hospital after work?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Yes, I need to visit the hospital at six."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you want me to drive the car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, please. My bag is heavy today."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can we stop by the school first?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Sure, the school is on the same road."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Great, then we can go straight to the hospital."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "After that, I will drop you home by car."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Thanks, Mary. That helps a lot."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "No problem. Lets leave work now."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-092",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What time is your flight to Hong Kong?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "My Hong Kong flight leaves from the airport at nine."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you pack your bag already?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, but I still need my work laptop."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Is your car ready for the airport drive?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, I parked the car near school."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Why near school?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Mary borrowed it after work and returned it there."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Okay, lets pick it up and go to the airport."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Perfect. Please remind me to take my bag."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-093",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How is your first week at the new school?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The school is busy, but I like it."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Do you go to work by car?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Most days, yes. My car saves time."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Did Mary start work there too?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary works in the school office."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Can you meet after work at the hospital cafe?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Sure, I need to visit a friend in the hospital."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Bring your bag. I have your airport documents."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Thanks, I need them for my Hong Kong trip."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-094",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Where is Mary today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Mary is at work near the airport."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Is she driving the car or taking a bus?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "She took the car because her bag is full."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "What is in the bag?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "School papers and hospital forms."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "That sounds like a long day."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, she has school meetings after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Will she still travel to Hong Kong tomorrow?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, she will go to the airport at dawn."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-095",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Can you help me plan tomorrow?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Sure. I start work at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "I need to take Mary to the hospital first."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then we can drive to school by car."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "After school, I need to go to the airport."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Is this for your Hong Kong meeting?"
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Yes, and my bag is not packed yet."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Pack your bag tonight after work."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Good idea. Can you call me at seven?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Of course. I will call before school."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-096",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Did you see my car keys?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "They are next to your bag on the chair."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Thanks. I must drive Mary to work."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Then are you going to school?"
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Yes, school starts in thirty minutes."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Dont forget the hospital report."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Right, it is in my bag."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "And your airport ticket to Hong Kong?"
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Also in my bag. I checked twice."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Great. Your car trip should be smooth."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-097",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Why are you late for work today?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "The road to school was blocked."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Did you still reach the hospital on time?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, Mary waited with my bag at the gate."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "That was helpful."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Very. Then we drove the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Was the airport crowded?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, many flights to Hong Kong were boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Did you finish work after that?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, I returned to work at noon."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-098",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "What should we buy before the trip?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "A new bag and a phone charger."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "For the Hong Kong flight from the airport?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Yes, and snacks for Mary."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Will Mary meet us after work?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "She will meet us near school at five."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Should we take your car?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, my car has more space for bags."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Do we need to stop by the hospital?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Only briefly to pick up medicine."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-099",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "How far is your work from the airport?"
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "About twenty minutes by car."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "And from work to school?"
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Around ten minutes if traffic is light."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Can Mary carry this bag for you?"
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Yes, Mary said she can help."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Do you still need to visit the hospital?"
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Yes, before my Hong Kong flight."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "That is a tight schedule."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "It is, but I planned it after work."
+        }
+      ]
+    },
+    {
+      "conversation_id": "intermediate-nouns-100",
+      "source": "generated_intermediate_nouns",
+      "language": "en",
+      "turn_count": 10,
+      "turns": [
+        {
+          "turn": 1,
+          "speaker": "A",
+          "english": "Lets review the plan one more time."
+        },
+        {
+          "turn": 2,
+          "speaker": "B",
+          "english": "Okay. First, school at eight."
+        },
+        {
+          "turn": 3,
+          "speaker": "A",
+          "english": "Second, work meeting at ten."
+        },
+        {
+          "turn": 4,
+          "speaker": "B",
+          "english": "Third, hospital visit at noon."
+        },
+        {
+          "turn": 5,
+          "speaker": "A",
+          "english": "Fourth, pick up Mary and her bag."
+        },
+        {
+          "turn": 6,
+          "speaker": "B",
+          "english": "Fifth, drive the car to the airport."
+        },
+        {
+          "turn": 7,
+          "speaker": "A",
+          "english": "Sixth, check in for the Hong Kong flight."
+        },
+        {
+          "turn": 8,
+          "speaker": "B",
+          "english": "Seventh, call work before boarding."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "english": "Great plan. Anything else?"
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "english": "Yes, keep your bag and passport ready."
+        }
+      ]
+    }
+  ]
+}

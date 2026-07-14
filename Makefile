@@ -25,7 +25,7 @@ help:
 	@printf "  make install-ollama  Install Ollama for the current host OS\n"
 	@printf "  make ensure-ollama-running  Start/check local Ollama server\n"
 	@printf "  make pull-model  Pull the configured Qwen model with Ollama\n"
-	@printf "  make build       Refresh backend package and compile Python sources\n"
+	@printf "  make build       Refresh package, compile sources, and sync pinyin audio\n"
 	@printf "  make test        Run focused test suite\n"
 	@printf "  make verify      Build and test the backend\n"
 	@printf "  make run         Start FastAPI locally\n"
@@ -107,6 +107,7 @@ pull-model:
 build: $(PYTHON)
 	$(PIP) install -e '.[dev]'
 	$(PYTHON) -m compileall src
+	$(PYTHON) scripts/download_pinyin_audio.py
 
 test: $(PYTHON)
 	$(PYTHON) -m pytest tests/test_api.py tests/test_translator.py

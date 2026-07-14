@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WayloLingo Practice</title>
+    <style>
+      :root {
+        --ink: #13261d;
+        --ink-soft: #365047;
+        --paper: #f4efe2;
+        --accent: #c54f24;
+        --accent-soft: #f2ceb4;
+        --card: #fffaf1;
+        --line: #dbcdb4;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 15% 10%, #f7e8d3 0%, transparent 40%),
+          radial-gradient(circle at 90% 85%, #f0dbc8 0%, transparent 35%),
+          var(--paper);
+      }
+
+      .wrap {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 28px 18px 48px;
+      }
+
+      h1 {
+        margin: 0 0 6px;
+        font-size: clamp(1.8rem, 3vw, 2.4rem);
+        letter-spacing: 0.01em;
+      }
+
+      .sub {
+        margin: 0 0 24px;
+        color: var(--ink-soft);
+      }
+
+      .panel {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px;
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+      }
+
+      .prompt-row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 90px;
+        resize: vertical;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 10px 12px;
+        font: inherit;
+        color: var(--ink);
+        background: #fff;
+      }
+
+      button {
+        align-self: end;
+        border: none;
+        border-radius: 10px;
+        padding: 12px 18px;
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+        color: #fff;
+        background: linear-gradient(135deg, #cb5b31, #b3411c);
+      }
+
+      button:disabled {
+        opacity: 0.6;
+        cursor: wait;
+      }
+
+      .status {
+        min-height: 22px;
+        margin-top: 10px;
+        color: var(--ink-soft);
+      }
+
+      .result {
+        margin-top: 20px;
+        display: none;
+      }
+
+      .result.show {
+        display: block;
+      }
+
+      .response {
+        padding: 12px;
+        border-left: 4px solid var(--accent);
+        background: #fff;
+        border-radius: 8px;
+        line-height: 1.45;
+      }
+
+      .symbols {
+        margin-top: 10px;
+        color: var(--ink-soft);
+      }
+
+      .audio-grid {
+        margin-top: 14px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      }
+
+      .audio-card {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 10px;
+        background: #fff;
+      }
+
+      .token {
+        display: inline-block;
+        margin-bottom: 8px;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: #6c2f16;
+        font-weight: 700;
+      }
+
+      .small {
+        margin-top: 6px;
+        font-size: 0.85rem;
+        color: #7a7a7a;
+      }
+
+      @media (max-width: 680px) {
+        .prompt-row {
+          grid-template-columns: 1fr;
+        }
+
+        button {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>WayloLingo Prompt Studio</h1>
+      <p class="sub">Ask in English. The app returns your configured LLM response and pinyin audio clips below.</p>
+
+      <section class="panel">
+        <div class="prompt-row">
+          <textarea id="promptInput" placeholder="How do I say lets go downstairs in mandarin?">How do I say piano in Mandarin?</textarea>
+          <button id="sendBtn">Ask</button>
+        </div>
+        <div id="status" class="status"></div>
+
+        <div id="result" class="result">
+          <h2>LLM Response</h2>
+          <div id="englishResponse" class="response"></div>
+          <div id="symbols" class="symbols"></div>
+
+          <h2>Pinyin Audio</h2>
+          <div id="audioGrid" class="audio-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const sendBtn = document.getElementById('sendBtn');
+      const promptInput = document.getElementById('promptInput');
+      const statusEl = document.getElementById('status');
+      const resultEl = document.getElementById('result');
+      const englishResponseEl = document.getElementById('englishResponse');
+      const symbolsEl = document.getElementById('symbols');
+      const audioGridEl = document.getElementById('audioGrid');
+
+      function setStatus(message) {
+        statusEl.textContent = message;
+      }
+
+      function renderAudioCards(tokens) {
+        audioGridEl.innerHTML = '';
+
+        if (!tokens.length) {
+          audioGridEl.innerHTML = '<div class="small">No pinyin tokens returned.</div>';
+          return;
+        }
+
+        for (const token of tokens) {
+          const card = document.createElement('div');
+          card.className = 'audio-card';
+
+          const tokenEl = document.createElement('div');
+          tokenEl.className = 'token';
+          tokenEl.textContent = token;
+
+          const audio = document.createElement('audio');
+          audio.controls = true;
+          audio.preload = 'none';
+          const primaryToken = token;
+          const toneOneFallback = token.replace(/[2-5]$/, '1');
+          const primarySrc = `/audio/pinyin_full/${encodeURIComponent(primaryToken)}.mp3`;
+          const fallbackSrc = `/audio/pinyin_full/${encodeURIComponent(toneOneFallback)}.mp3`;
+          audio.src = primarySrc;
+
+          const hint = document.createElement('div');
+          hint.className = 'small';
+          hint.textContent = 'If audio is unavailable, this token is missing in source files.';
+
+          let triedFallback = false;
+          audio.addEventListener('error', () => {
+            if (!triedFallback && toneOneFallback !== primaryToken) {
+              triedFallback = true;
+              audio.src = fallbackSrc;
+              audio.load();
+              hint.textContent = `Missing ${primaryToken}; using ${toneOneFallback} audio.`;
+              return;
+            }
+            hint.textContent = 'Audio not found for this token or tone-1 fallback.';
+          });
+
+          card.appendChild(tokenEl);
+          card.appendChild(audio);
+          card.appendChild(hint);
+          audioGridEl.appendChild(card);
+        }
+      }
+
+      async function submitPrompt() {
+        const prompt = promptInput.value.trim();
+        if (!prompt) {
+          setStatus('Enter a prompt first.');
+          return;
+        }
+
+        sendBtn.disabled = true;
+        setStatus('Calling /prompt-translate...');
+
+        try {
+          const response = await fetch('/prompt-translate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ prompt }),
+          });
+
+          const payload = await response.json();
+          if (!response.ok) {
+            throw new Error(payload.detail || 'Request failed');
+          }
+
+          const firstSentence = payload.translation?.conversation?.[0] || {};
+          const symbols = Array.isArray(firstSentence.symbols) ? firstSentence.symbols : [];
+          const phonetic = Array.isArray(firstSentence.phonetic) ? firstSentence.phonetic : [];
+
+          englishResponseEl.textContent = payload.english_response || '';
+          symbolsEl.textContent = symbols.length ? `Target symbols: ${symbols.join(' ')}` : 'No symbols returned.';
+          renderAudioCards(phonetic);
+
+          resultEl.classList.add('show');
+          setStatus('Done.');
+        } catch (error) {
+          setStatus(`Error: ${error.message}`);
+        } finally {
+          sendBtn.disabled = false;
+        }
+      }
+
+      sendBtn.addEventListener('click', submitPrompt);
+    </script>
+  </body>
+</html>
