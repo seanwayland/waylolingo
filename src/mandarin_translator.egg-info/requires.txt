@@ -1,0 +1,8 @@
+fastapi<1.0,>=0.116
+uvicorn<1.0,>=0.35
+pydantic<3.0,>=2.11
+httpx<1.0,>=0.28
+pypinyin<1.0,>=0.55
+
+[dev]
+pytest<9.0,>=8.4
