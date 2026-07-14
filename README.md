@@ -2,10 +2,7 @@
 
 This is a minimal FastAPI prototype for the structured conversation schema.
 
-The app supports two translator backends:
-
-- `ollama`: local Qwen inference through an Ollama server
-- `rot13`: deterministic placeholder output for local development fallback
+The app translates via Google's [TranslateGemma](https://blog.google/innovation-and-ai/technology/developers-tools/translategemma/) model, run locally through Ollama.
 
 ## Workflow
 
@@ -19,8 +16,7 @@ make test
 make verify
 ```
 
-The Make workflow defaults to `TRANSLATOR_BACKEND=ollama`.
-Use `TRANSLATOR_BACKEND=rot13` only when you want the placeholder translator explicitly.
+The Make workflow defaults to `TRANSLATOR_BACKEND=translategemma` with `TRANSLATOR_MODEL=translategemma:4b`.
 
 Shell wrappers in `scripts/` call those same targets:
 
@@ -43,25 +39,23 @@ uvicorn mandarin_translator.api:app --reload
 
 ## Ollama setup
 
-To use local Qwen instead of the placeholder translator:
-
 ```bash
 brew install ollama
 ollama serve
-TRANSLATOR_BACKEND=ollama make setup
-TRANSLATOR_BACKEND=ollama make run
+make setup
+make run
 ```
 
 You can also pull the configured model explicitly:
 
 ```bash
-QWEN_MODEL=qwen2.5:7b-instruct ./scripts/pull-model.sh
+TRANSLATOR_MODEL=translategemma:4b ./scripts/pull-model.sh
 ```
 
 Environment variables:
 
-- `TRANSLATOR_BACKEND`: `rot13` or `ollama`
-- `OLLAMA_MODEL`: model tag to load, default `qwen2.5:7b-instruct`
+- `TRANSLATOR_BACKEND`: `translategemma` (only supported backend)
+- `OLLAMA_MODEL`: model tag to load, default `translategemma:4b`
 - `OLLAMA_BASE_URL`: Ollama server URL, default `http://127.0.0.1:11434`
 - `OLLAMA_TIMEOUT_SECONDS`: request timeout, default `60`
 
@@ -118,8 +112,8 @@ curl -X POST http://127.0.0.1:8000/translate \
       "language": "mandarin",
       "language_code": "zh-CN",
       "english": ["what", "time", "is", "it"],
-      "phonetic": ["jung", "gvzr", "vf", "vg"],
-      "symbols": ["jung", "gvzr", "vf", "vg"]
+      "phonetic": ["xian4", "zai4", "ji3", "dian3"],
+      "symbols": ["现在几点"]
     }
   ]
 }

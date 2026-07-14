@@ -198,9 +198,9 @@ def prompt_translate(request: PromptTranslateRequest) -> PromptTranslateResponse
         translator = get_translator()
         target_phrase = extract_target_phrase_from_prompt(request.prompt)
 
-        # Fast path: for common "How do I say ... in Mandarin?" prompts on Ollama,
+        # Fast path: for common "How do I say ... in Mandarin?" prompts,
         # skip the separate free-form response call to reduce end-to-end latency.
-        if target_phrase and translator.backend_name == "ollama":
+        if target_phrase:
             try:
                 translation = translator.translate(target_phrase)
             except TranslatorError:
