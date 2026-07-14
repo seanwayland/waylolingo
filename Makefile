@@ -11,10 +11,13 @@ TRANSLATOR_BACKEND ?= ollama
 QWEN_MODEL ?= qwen2.5:7b-instruct
 OLLAMA_BASE_URL ?= http://127.0.0.1:11434
 OLLAMA_TIMEOUT_SECONDS ?= 60
+OLLAMA_NUM_PARALLEL ?= 4
+OLLAMA_MAX_QUEUE ?= 8
+OLLAMA_KEEP_ALIVE ?= 30m
 HOST ?= 127.0.0.1
 PORT ?= 8000
 
-.PHONY: all help setup install-ollama ensure-ollama-running pull-model build test verify run clean
+.PHONY: all help setup install-ollama ensure-ollama-running start-ollama stop-ollama pull-model build test verify run clean
 
 all: setup verify
 
@@ -23,6 +26,8 @@ help:
 	@printf "  make             Run the default local workflow: setup + verify\n"
 	@printf "  make setup       Create venv, install deps, optionally pull Qwen via Ollama\n"
 	@printf "  make install-ollama  Install Ollama for the current host OS\n"
+	@printf "  make start-ollama  Start Ollama service/process\n"
+	@printf "  make stop-ollama   Stop Ollama service/process\n"
 	@printf "  make ensure-ollama-running  Start/check local Ollama server\n"
 	@printf "  make pull-model  Pull the configured Qwen model with Ollama\n"
 	@printf "  make build       Refresh package, compile sources, and sync pinyin audio\n"
@@ -34,6 +39,9 @@ help:
 	@printf "  default goal=all\n"
 	@printf "  TRANSLATOR_BACKEND=$(TRANSLATOR_BACKEND)\n"
 	@printf "  QWEN_MODEL=$(QWEN_MODEL)\n"
+	@printf "  OLLAMA_NUM_PARALLEL=$(OLLAMA_NUM_PARALLEL)\n"
+	@printf "  OLLAMA_MAX_QUEUE=$(OLLAMA_MAX_QUEUE)\n"
+	@printf "  OLLAMA_KEEP_ALIVE=$(OLLAMA_KEEP_ALIVE)\n"
 	@printf "\n"
 	@printf "Fallback example:\n"
 	@printf "  TRANSLATOR_BACKEND=rot13 make all\n"
@@ -87,14 +95,33 @@ ensure-ollama-running:
 		echo "Ollama server is already running"; \
 	elif [[ "$$(uname -s)" == "Darwin" ]] && command -v brew >/dev/null 2>&1; then \
 		echo "Starting Ollama with Homebrew service..."; \
+		echo "Note: brew service ignores Makefile concurrency env vars. To apply OLLAMA_NUM_PARALLEL/OLLAMA_MAX_QUEUE, run ollama serve manually."; \
 		brew services start ollama >/dev/null; \
 		sleep 2; \
 		curl -fsS http://127.0.0.1:11434/api/tags >/dev/null 2>&1 || { echo "Ollama service did not start. Try: brew services restart ollama"; exit 1; }; \
 	else \
 		echo "Starting Ollama in background..."; \
-		nohup ollama serve >/tmp/ollama-serve.log 2>&1 & \
+		OLLAMA_NUM_PARALLEL=$(OLLAMA_NUM_PARALLEL) OLLAMA_MAX_QUEUE=$(OLLAMA_MAX_QUEUE) nohup ollama serve >/tmp/ollama-serve.log 2>&1 & \
 		sleep 2; \
 		curl -fsS http://127.0.0.1:11434/api/tags >/dev/null 2>&1 || { echo "Could not start Ollama server. Check /tmp/ollama-serve.log"; exit 1; }; \
+	fi
+
+start-ollama:
+	@$(MAKE) ensure-ollama-running
+
+stop-ollama:
+	@if [[ "$$(uname -s)" == "Darwin" ]] && command -v brew >/dev/null 2>&1 && brew services list | grep -q '^ollama\s'; then \
+		echo "Stopping Ollama Homebrew service..."; \
+		brew services stop ollama >/dev/null || true; \
+	else \
+		echo "Stopping Ollama process..."; \
+		pkill -f 'ollama serve' >/dev/null 2>&1 || true; \
+	fi
+	@if curl -fsS http://127.0.0.1:11434/api/tags >/dev/null 2>&1; then \
+		echo "Ollama still appears to be running on 127.0.0.1:11434"; \
+		exit 1; \
+	else \
+		echo "Ollama stopped"; \
 	fi
 
 pull-model:
@@ -119,6 +146,9 @@ run: $(PYTHON)
 	OLLAMA_MODEL=$(QWEN_MODEL) \
 	OLLAMA_BASE_URL=$(OLLAMA_BASE_URL) \
 	OLLAMA_TIMEOUT_SECONDS=$(OLLAMA_TIMEOUT_SECONDS) \
+	OLLAMA_NUM_PARALLEL=$(OLLAMA_NUM_PARALLEL) \
+	OLLAMA_MAX_QUEUE=$(OLLAMA_MAX_QUEUE) \
+	OLLAMA_KEEP_ALIVE=$(OLLAMA_KEEP_ALIVE) \
 	$(UVICORN) mandarin_translator.api:app --reload --host $(HOST) --port $(PORT)
 
 clean:

@@ -94,11 +94,13 @@ class OllamaTranslator:
         model: str,
         base_url: str = "http://127.0.0.1:11434",
         timeout: float = 60.0,
+        keep_alive: str = "30m",
         client: httpx.Client | None = None,
     ) -> None:
         self.model = model
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout
+        self.keep_alive = keep_alive
         self._client = client
 
     def translate(
@@ -114,6 +116,7 @@ class OllamaTranslator:
             "model": self.model,
             "stream": False,
             "format": "json",
+            "keep_alive": self.keep_alive,
             "options": {
                 "temperature": 0,
                 "top_p": 0.9,
@@ -142,6 +145,7 @@ class OllamaTranslator:
         payload = {
             "model": self.model,
             "stream": False,
+            "keep_alive": self.keep_alive,
             "options": {
                 "temperature": 0.2,
                 "top_p": 0.9,
@@ -301,5 +305,6 @@ def build_translator_from_env() -> Translator:
         model = os.getenv("OLLAMA_MODEL", "qwen2.5:7b-instruct")
         base_url = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
         timeout = float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "60"))
-        return OllamaTranslator(model=model, base_url=base_url, timeout=timeout)
+        keep_alive = os.getenv("OLLAMA_KEEP_ALIVE", "30m")
+        return OllamaTranslator(model=model, base_url=base_url, timeout=timeout, keep_alive=keep_alive)
     raise TranslatorError(f"Unsupported translator backend: {backend}")
