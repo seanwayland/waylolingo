@@ -1,1 +1,8 @@
 .env.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
